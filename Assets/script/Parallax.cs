@@ -16,7 +16,7 @@ public class Parallax : MonoBehaviour       //this was used to create the parall
         length = GetComponent<SpriteRenderer>().bounds.size.x;          //length of background
     }
 
-    // Update is called once per frame hellooooo
+    // Update is called once per frame 
     void FixedUpdate()
     {
         if(cam)         //this moves the parallax background in accordance to the camera movement
